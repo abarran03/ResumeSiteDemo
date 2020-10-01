@@ -11,4 +11,4 @@ const StyledH2 = styled.h2`
 
 const H2Styled = ({name}) => <StyledH2>{name}</StyledH2>;
 
-export default StyledH2;
+export default H2Styled;
