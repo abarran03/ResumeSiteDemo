@@ -8,7 +8,7 @@ import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
-import useGetData from '../hooks/UseGetData';
+import useGetData from '../hooks/useGetData';
 
 const GlobalStyle = createGlobalStyle`
     body{
