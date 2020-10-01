@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { hasUncaughtExceptionCaptureCallback } = require('process');
-
 module.exports = {
     entry: './src/index.js',
     output:{
