@@ -51,8 +51,6 @@ const SkillsSpan = styled.span`
   }
 `;
 
-
-
 const Skills = props =>(
     <div className="Skills">
       <SkillsContainer>

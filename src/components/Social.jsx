@@ -69,8 +69,6 @@ const Social = props => (
     
     
     }
-
-
 </SocialStyle>
 
 

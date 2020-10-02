@@ -5,19 +5,9 @@ const Info =({children})=>(
       <div className="Info-container">
         <div className="Info-item">
             {children}
-
-
-
         </div>  
-
-
-
         </div>  
-
-
-
     </div>
-
 );
 
 export default Info;

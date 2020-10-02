@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import Info from '../components/Info';
 import About from '../components/About';
 import Education from '../components/Education';
+import Loading from '../components/Loading';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
@@ -22,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 const App = ()=> {
     const data = useGetData();
     console.log(data);
-    return data.length === 0 ? <h1>Cargando...</h1> : (
+    return data.length === 0 ? <Loading /> : (
         <Main>
             <GlobalStyle/>
             <Sidebar>
